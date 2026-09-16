@@ -1,0 +1,12 @@
+name: token-gate-mcp
+description: Token and context budget for AI agents. Tracks spend, estimates the cost of reads, and tells an agent the cheaper path before it burns its budget.
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({
+      command: 'npx',
+      args: ['-y', 'token-gate-mcp']
+    })
