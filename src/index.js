@@ -5,7 +5,8 @@ import { z } from "zod";
 import { statSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
-const server = new McpServer({ name: "context-mcp", version: "0.1.0" });
+const pkg = JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8"));
+const server = new McpServer({ name: pkg.name, version: pkg.version });
 
 const ledger = { events: [], budget: 0, start: Date.now() };
 
