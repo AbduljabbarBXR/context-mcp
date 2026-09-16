@@ -1,6 +1,6 @@
 {
   "name": "token-gate-mcp",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Token and context budget for AI agents. Tracks spend, estimates the cost of reads, and tells an agent the cheaper path before it burns its budget.",
   "type": "module",
   "main": "src/index.js",
@@ -23,5 +23,5 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0"
   },
-  "mcpName": "io.github.abduljabbarbxr/token-gate-mcp"
+  "mcpName": "io.github.AbduljabbarBXR/token-gate-mcp"
 }
