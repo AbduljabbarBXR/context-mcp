@@ -1,4 +1,4 @@
-# context-mcp
+# token-gate-mcp
 
 Token and context budget for AI agents. Tracks session spend, estimates the cost of a read before it happens, and tells an agent the cheaper path before it burns its budget.
 
@@ -21,14 +21,14 @@ Estimates assume roughly four characters per token.
 ## Usage
 
 ```bash
-npm install -g context-mcp
+npm install -g token-gate-mcp
 ```
 
 ```json
 {
   "mcpServers": {
-    "context": {
-      "command": "context-mcp",
+    "token-gate": {
+      "command": "token-gate-mcp",
       "args": []
     }
   }

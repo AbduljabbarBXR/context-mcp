@@ -1,11 +1,11 @@
 {
-  "name": "context-mcp",
+  "name": "token-gate-mcp",
   "version": "0.1.0",
   "description": "Token and context budget for AI agents. Tracks spend, estimates the cost of reads, and tells an agent the cheaper path before it burns its budget.",
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "context-mcp": "src/index.js"
+    "token-gate-mcp": "src/index.js"
   },
   "files": [
     "src"
