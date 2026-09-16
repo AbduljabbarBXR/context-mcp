@@ -1,0 +1,21 @@
+{
+  "name": "context-mcp",
+  "version": "0.1.0",
+  "description": "Token and context budget for AI agents. Tracks spend, estimates the cost of reads, and tells an agent the cheaper path before it burns its budget.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "context-mcp": "src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": ["mcp", "model-context-protocol", "agents", "tawakkul-labs"],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0"
+  }
+}
